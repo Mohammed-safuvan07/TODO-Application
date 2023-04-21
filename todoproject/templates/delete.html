@@ -1,0 +1,11 @@
+{% extends 'detail.html' %}
+
+{% block body %}
+<form method="POST">:
+    {% csrf_token %}
+    <h3>Are you sure about the Task</h3>
+    <input type="submit">
+</form>
+
+
+{% endblock %}
